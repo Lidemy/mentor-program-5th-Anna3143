@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>餐廳官網</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <style>
+  	body{
+  		background: rgba(0, 0, 0, 0.3);
+  	}
+  
+    .wrapper{
+    	max-width: 645px;
+        background: white;
+        margin: 10% auto;
+        box-shadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, 0.3);
+        border-top: solid 8px #fad312;
+        padding: 64px 32px;
+    }
+  	
+    .title{
+    	margin: 0;
+    	font-size: 36px; 
+    	font-weight: bold;
+    	text-align: left;
+    }
+    .notes{
+    	font-size: 14px;
+    }
+    .notes .date{
+    	margin-top: 32px;
+    }
+    .notes .location{
+    	margin-top: 20px; 
+    }
+    .notes .nes{
+    	color: #e74149;
+        font-size: 16px;
+        margin-top: 28px;
+        margin-bottom:32px;
+    }
+
+    .input-block{
+    	font-size: 20px;
+    	margin: 0px; 
+    }
+
+    .input-blockTitle{
+    	font-size: 20px;
+    }
+    .input-blockAnswer{
+    	margin-top: 24px;
+    }
+    .input-blockAnswer input{
+    	border: solid 1px #d0d0d0;
+    	font-size: 16px;
+    	margin-bottom: 48px;
+    }
+    .input-blockAnswer2{
+    	margin-top: 12px; 
+    	font-size: 14px;
+    }
+     .apply-form__submit {
+        background: #fad312;
+        color: black;
+        font-size: 15px;
+        padding: 12px 32px;
+        margin-top: 24px;
+        border: none;
+        border-radius: 4px;
+      }
+  </style>
+  </head>	
+  <body >
+  	<div class="wrapper">
+    	<div class="yellow">  </div>
+  	       <div class="title">新拖延運動報名表單</div>
+  	    <h1 class="notes">
+  		   <div class="date">活動日期 : 2021/12/10 ~ 2021/12/11</div>
+  		   <div class="location">活動地點 : 台北市大安區新生南路二段1號<div>
+  		<div class="nes">* 必填</div>
+     </h1>
+    	<section class="input-block">
+  		<div class="input-blockTitle">暱稱<span style="color: red;">*</span></div>
+  		<div class="input-blockAnswer">
+  			<input type="text" name="nickname">
+  		</div>
+  		<div class="input-blockTitle">電子郵件<span style="color: red;">*</span></div>
+  		<div class="input-blockAnswer">
+  			<input type="text" name="nickname">
+  		</div>
+  		<div class="input-blockTitle">手機號碼<span style="color: red;">*</span></div>
+  		<div class="input-blockAnswer">
+  			<input type="text" name="nickname">
+  		</div>
+  		<div class="input-blockTitle">報名類型<span style="color: red;">*</span></div>
+  		<div class="input-blockAnswer2">
+            <input name="type" value="1" type="radio"/> 躺在床上用想像力實作
+          </div>
+
+          <div class="input-blockAnswer2">
+            <input name="type" value="2" type="radio" />
+             趴在地上滑手機找現成的
+          </div>
+          <div class="input-blockTitle" style="margin-top: 51px;">怎麼知道這個活動的<span style="color: red;">*</span></div>
+  		<div class="input-blockAnswer">
+  			<input type="text" name="nickname">
+  			<div class="input-blockTitle">其他<span style="color: red;">*</span></div>
+  			<div style="font-size: 14px;">對活動的一些建議</div>
+  	        <input type="text" name="nickname">
+  	        <div>
+  		 <input class="apply-form__submit" type="submit" />
+      <p style=" font-size: 14px; margin-top: 2px;">
+        請勿透過表單送出您的密碼。
+      </p>
+  		</div>	
+  	</section>
+  </div>
+
+  </body> 
+</html>
