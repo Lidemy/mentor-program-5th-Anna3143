@@ -15,8 +15,9 @@ const obj2 = obj.inner
 const hello = obj.inner.hello
 obj.inner.hello() // ??
 obj2.hello() // ??
-hello() // ??
 
+hello() // ??
+result:
 2
 2
 undefined

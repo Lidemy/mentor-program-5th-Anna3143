@@ -1,5 +1,4 @@
 請說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
-
 var a = 1
 function fn(){
   console.log(a)
